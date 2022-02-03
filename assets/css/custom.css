@@ -1,0 +1,189 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-dark,
+.logo-light {
+  max-width: 250px;
+  height: auto;
+}
+
+.header .navbar {
+  background: #ffffff;
+}
+
+.header .navbar .navbar-nav > li > a {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #e8505b;
+}
+
+.hero.hero-lead .hero-cotainer .hero-content .hero-headline {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.hero .hero-cotainer .hero-content .hero-bio {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.hero.hero-lead {
+  padding-top: 150px;
+}
+
+.popup-contact-form .heading .heading-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.features {
+  padding-top: 75px;
+}
+
+.heading .heading-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #e8505b;
+}
+
+.heading .heading-desc {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.form-control {
+  color: #868e96;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  height: 40px;
+  text-transform: initial;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.popup-contact-form p.notice {
+  font-size: 16px;
+}
+
+.features .feature-panel .feature-content h3 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+
+.features .feature-panel .feature-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+#cta {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.cta h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+}
+
+.cta p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.slogan img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .logo-dark,
+  .logo-light {
+    max-width: 225px;
+  }
+
+  .navbar .navbar-brand {
+    margin-left: 75px;
+    height: 75px;
+    line-height: 75px;
+  }
+
+  .header .navbar .navbar-nav > li > a {
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
+  .hero.hero-lead .hero-cotainer .hero-content {
+    padding-top: 33px;
+  }
+
+  .popup-contact-form .heading .heading-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e8505b;
+  }
+
+  .form-control {
+    color: #868e96;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 40px;
+    text-transform: initial;
+  }
+
+  .hero.hero-lead {
+    padding-top: 125px;
+  }
+
+  .hero-bio {
+    display: none;
+  }
+
+  .hero.hero-lead .hero-cotainer .hero-content .hero-headline {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+
+  .heading .heading-desc {
+    display: none;
+  }
+
+  .features .feature-panel {
+    position: relative;
+    padding: 10px 40px;
+    margin: 0 auto 33px auto;
+  }
+
+  .services {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+
+  section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .cta {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+  }
+}
